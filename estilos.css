@@ -5,3 +5,118 @@
     text-decoration: none;
     
 }
+
+.contenedor{
+    margin: auto;
+    max-width: 1200px;
+    overflow: auto;
+    padding: 0 10px;
+    background: #fff;
+    border: 1px solid red;
+}
+
+/*----------------------------------------------------------------------HEADER-LOGO-------------------------*/
+
+.header {
+	padding: 20px;	
+	/*box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);*/
+}
+
+.header .logo {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+
+.logo .avatar {
+	padding: 5px;
+	/*border: 1px solid #000;*/
+	display: inline-block;
+	margin-bottom: 15px;
+   
+}
+
+.logo .avatar img{
+    width: 60px;
+}
+
+/*-------------------------------------------------------------------HEADER-NAVEGACIÓN------------------------------------*/
+
+.menu {
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu a {
+	padding: 10px;
+	color: #000;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 400;
+	width: 100%;
+	text-align: center;
+	transition: 0.2s ease all;
+	font-size: 16px;
+}
+
+.menu a:hover {
+	background: #000;
+	color: #fff;
+}
+
+/*--------------------------------------------------------------------------PORTADA-------------------------*/
+
+.cont-pantalla-dividida .izquierda h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 1.2;
+    padding: 100px 0 30px 0;
+}
+
+.cont-pantalla-dividida .izquierda p{
+  font-size: 25px;
+  text-align: center;
+  
+}
+
+.cont-pantalla-dividida .izquierda{
+    width: 50%;
+    height: 100vh;
+    background: pink;
+    
+}
+
+.cont-pantalla-dividida .derecha{
+    width: 50%;
+    height: 100vh;
+    background-image: url(codeando.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cont-pantalla-dividida{
+    display: flex;
+}
+
+
+
+
+/*--------------------------------------------------------------------------------FOOTER-----------------------*/
+/*
+.contenedor footer {
+	background: #fff;
+	font-size: 20px; 
+	padding: 25px; 
+	text-align: right;
+	box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.6);
+}
+
+*/
