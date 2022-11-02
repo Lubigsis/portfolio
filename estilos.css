@@ -12,7 +12,7 @@
     overflow: auto;
     padding: 0 10px;
     background: #fff;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 /*----------------------------------------------------------------------HEADER-LOGO-------------------------*/
@@ -71,13 +71,20 @@
 
 /*--------------------------------------------------------------------------PORTADA-------------------------*/
 
-.cont-pantalla-dividida .izquierda h1{
+.cont-pantalla-dividida .izquierda .texto{
     font-size: 100px;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     line-height: 1.2;
     padding: 100px 0 30px 0;
+	color: transparent;
+	background-image: url(diez.jpg);
+	background-size: cover;
+	background-position: center;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .cont-pantalla-dividida .izquierda p{
@@ -90,7 +97,7 @@
     width: 50%;
     height: 100vh;
     background: pink;
-    
+	    
 }
 
 .cont-pantalla-dividida .derecha{
